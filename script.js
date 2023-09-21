@@ -15,7 +15,7 @@ let krishnaObject ={
 }
 
 const ageValidator =(object1, object2) =>{
-    return (object1.age > object2.age ? object1.name : object2.name )
+    return (object1.age > object2.age ? object1.name : object2.name)
 }
 
 console.log(ageValidator(ramaObject, krishnaObject))
